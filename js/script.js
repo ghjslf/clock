@@ -1,5 +1,6 @@
 function convert() {
     let time = new Date();
+    
     let hours = time.getHours().toString();
     let minutes = time.getMinutes().toString();
     let seconds = time.getSeconds().toString();
